@@ -12,9 +12,9 @@ Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
 # Functional specifications
 
-The below Story was created in JIRA and describes the functional specifications of the Admin module, for which the final project is performed upon.
+The below Epic was created in JIRA and describes the functional specifications of the Admin module, for which the final project is performed upon.
 
-![](Epic-Admin Module 5.0)
+![](Epic-Admin Module 5.0.PNG)
 
 # 1 Testing section
 
