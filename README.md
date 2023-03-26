@@ -5,3 +5,7 @@ The scope of the final project for ITF Manual Testing Course is to use all gaine
 Application under test: https://opensource-demo.orangehrmlive.com/
 
 API Documentation: https://orangehrm.github.io/orangehrm-api-doc/
+
+The final project will be split into 2 sections: Testing section and SQL section.
+
+Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
