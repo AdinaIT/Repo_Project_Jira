@@ -9,3 +9,9 @@ API Documentation: https://orangehrm.github.io/orangehrm-api-doc/
 The final project will be split into 2 sections: Testing section and SQL section.
 
 Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
+
+# Functional specifications
+
+The below Story was created in JIRA and describes the functional specifications of the Dependants module, for which the final project is performed upon.
+
+
