@@ -14,7 +14,7 @@ Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
 The below Epic was created in JIRA and describes the functional specifications of the Admin module, for which the final project is performed upon.
 
-![](Epic-Admin Module 5.0.PNG) 
+![Epic-Admin Module 5.0.PNG](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/Epic-Admin%20Module%205.0.PNG) 
 
 # 1 Testing section
 
