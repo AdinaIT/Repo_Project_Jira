@@ -67,4 +67,4 @@ The entry criterias defined in the Test Planning phase have been achieved and th
 Variou periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken.
 The following status report was generated after 40% of the test cases were executed, on 1st of April 2023:
 
-           Test Executions by Test Cycle
+      Test Executions by Test Cycle
