@@ -52,3 +52,8 @@ The plan identifies the items to be tested, the features to be tested, the types
 * __Tests in scope:__ All the feature of Dependents module which were defined in software requirement specs need to be tested: functional testing, GUI testing and API testing
 * __Tests not in scope:__ performance testing, integrations of the dependents module with other modules, compatibility testing with multiple browsers
 
+#### 1.1.5 Risks detected
+
+* Project risks: lack of experience of the QA team, short term for the Zephyr Squad test, unavailability of the test environment, relatively unclear and sometimes insufficient business requirements.
+* Product risks: the validation constraints on the fields could be too restrictive for the end user, the application has a low quality of non-functional parameters (usability, performance),sometimes the app crash causes a re-login and then a password change is required for security reasons
+
