@@ -44,7 +44,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 * all resolved bugs have been re-tested and approved by the QA team
 * deadline was reached
 * no detected major risk remained un-mitigated
-* exploratory regression testing must be performed on the My Info module, which includes the Admin module
+* exploratory regression testing must be performed on the My Info module, which includes the Dependents section
 
 
 
