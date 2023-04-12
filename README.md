@@ -87,4 +87,5 @@ are boundary value analysis, equivalence partitioning and use case testing.
 
 **Test cases:**
 
+![Test Summary.PNG](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/Test%20Summary.PNG)
 
