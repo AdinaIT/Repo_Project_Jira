@@ -79,3 +79,12 @@ The testing process will be executed based on the above requirements for the Adm
 * Check if the system administrator can delete users
 * Checks that a user cannot be added when at least one mandatory field is not filled
 * Check all validation constraints for fields
+
+## 1.4 Test Design
+
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
+are boundary value analysis, equivalence partitioning and use case testing.
+
+**Test cases:**
+
+
