@@ -69,4 +69,4 @@ The following status report was generated after 40% of the test cases were execu
 
 Test Executions by Test Cycle   
 
-![Jira.PNG](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/Jira.PNG)
+![Test Cycle.PNG](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/Jira.PNG)
