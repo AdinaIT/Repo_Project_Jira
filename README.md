@@ -70,3 +70,12 @@ The following status report was generated after 40% of the test cases were execu
 Test Executions by Test Cycle   
 
 ![Test Cycle.PNG](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/Test%20Cycle.PNG)
+
+## 1.3 Test Analysis
+
+The testing process will be executed based on the above requirements for the Admin module. The following test conditions were found:
+* Checks if an ESS Supervisor type user can be created when all mandatory fields are completed
+* Checks if an ESS Employee type user can be created when all mandatory fields are completed
+* Check if the system administrator can delete users
+* Checks that a user cannot be added when at least one mandatory field is not filled
+* Check all validation constraints for fields
