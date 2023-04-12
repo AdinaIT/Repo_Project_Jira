@@ -68,3 +68,5 @@ Variou periodic reports were generated to reflect the current status of the test
 The following status report was generated after 40% of the test cases were executed, on 1st of April 2023:
 
 Test Executions by Test Cycle   
+
+![Jira.PNG](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/Jira.PNG)
