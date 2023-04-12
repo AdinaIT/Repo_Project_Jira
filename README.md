@@ -69,4 +69,4 @@ The following status report was generated after 40% of the test cases were execu
 
 Test Executions by Test Cycle   
 
-![Test Cycle.PNG](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/Epic-Admin%20Module%205.0.PNG)
+
