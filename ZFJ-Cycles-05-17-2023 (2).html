@@ -1,0 +1,1156 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>ZFJ - Html Report for Executions</title>
+        <script type="text/javascript">
+        function altRows ( id ) {
+            if ( document.getElementsByTagName ) {
+                var table = document.getElementById ( id ) ;
+                var rows = table.getElementsByTagName ( "tr" ) ;
+                for ( i = 0 ; i < rows.length ; i ++ ) {
+                    if ( i % 2 == 0 ) {
+                        rows[ i ].className = "evenrowcolor" ;
+                    } else {
+                        rows[ i ].className = "oddrowcolor" ;
+                    }
+                }
+            }
+        }
+        window.onload = function ( ) {
+            altRows ( 'alternatecolor' ) ;
+        }
+        </script>
+        <style type="text/css">
+        table.altrowstable {
+            font-family : verdana, arial, sans-serif ;
+            font-size : 9px ;
+            padding-left : 50px ;
+            color : #333333 ;
+            border-width : 1px ;
+            border-color : #a9c6c9 ;
+            border-collapse : collapse ;
+        }
+        table.altrowstable th {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        table.altrowstable thead {
+            font-weight : bold ;
+        }
+        table.altrowstable td {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        .oddrowcolor {
+            background-color : #d4e3e5 ;
+        }
+        .evenrowcolor {
+            background-color : none ;
+        }
+        </style>
+    </head>
+    <body>
+
+        <table class="altrowstable" id="alternatecolor" border="1" cellspacing="0" cellpadding="0" style="padding-left : 50 px ; overflow-y = scroll ;">
+            <thead>
+                <th>ExecutionId</th>
+                <th>Cycle</th>
+                <th>Issue Key</th>
+                <th>Test Summary</th>
+                <th>Project</th>
+                <th>Version</th>
+                <th>Priority</th>
+                <th>Executed By</th>
+                <th>Executed On</th>
+                <th>Execution Status</th>
+                <th>Execution Defect(s)</th>
+                <th>Creation Date</th>
+                <th>StepId</th>
+                <th>Step</th>
+                <th>Test Data</th>
+                <th>Expected Result</th>
+                <th>Step Result</th>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <td rowspan="2">073f3d9d-e925-4b8e-ad20-44b53938e0d0</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-59</td>
+                        <td rowspan="2">Checks that a system administrator can view the details of a &quot;Job Category&quot;.</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">27/Feb/23 03:12 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">26/Feb/23 06:31 PM</td>
+                            <td>8518cf2a-9ec5-47b5-84eb-a708aa3c6f0d</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>The application is open</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>PASS</td>
+                        
+                     </tr>
+                    
+                        <tr>
+                            <td>3e4c60b8-69ae-41e1-8dba-ef00dd005081</td>
+                            <td><p>Go to Job module and Click on the name "Job Categories" section</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>A list of job category details was opened with successfully</p></td>
+                            <td>PASS</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">0b7dcfda-c609-4672-9402-bf7fd3b07431</td>
+                        <td rowspan="4">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="4">PIJA-47</td>
+                        <td rowspan="4">Check that a system administrator can assign several currencies on a Pay grade</td>
+                        <td rowspan="4">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="4">Orange HRM site launching</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Testare</td>
+                        <td rowspan="4">27/Feb/23 03:15 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">22/Feb/23 12:24 PM</td>
+                            <td>fce915e5-76b4-4d46-be4f-c1bfd3f6a9c7</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The system administrator can access the application</p></td>
+                            <td>PASS</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>15afacc1-a05c-41ee-ac16-d828d51f4bd6</td>
+                            <td><p>Enter "Edit pay grade" at Assigned Currencies"</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The users can access the edit pay grade section</p></td>
+                            <td>PASS</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>314b7fbf-37a5-470c-b746-1adff038ea0d</td>
+                            <td><p>Add currency to the desired currencies, using the "Add" button, than press Save button</p></td>
+                            <td><p>The currency is Utd. Arab Emir. Dirham</p></td>
+                            <td><p>The currency was successfully assigned</p></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ee78dc2b-c8d7-47c1-820a-a8f33d176d9e</td>
+                            <td><p>Add as many currencies as you want and then press Save button</p></td>
+                            <td><p>The currency are United States Dollar and Euro</p></td>
+                            <td><p>The Currencies was successfully assigned</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">d804225b-fc3f-46ca-8cf8-a12208ed23eb</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-40</td>
+                        <td rowspan="3">Check if it can be created a user of admin type when all mandatory fields are completed</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">27/Feb/23 04:03 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">07/Feb/23 02:32 PM</td>
+                            <td>6b5349a0-a243-4fff-a7fb-29593ed137df</td>
+                            <td><p>1. Enter the application Orange HRM with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>10fe4ad1-9c51-48c1-8031-48885b5db2d8</td>
+                            <td><p>2. Go to Admin&#62;&#62; User Management&#62;&#62; Users and press the Add button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>Add users window is open</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c52a850f-6cd8-4324-904b-1536d3d6f126</td>
+                            <td><p>3. Complete the  mandatory fields & press the button</p></td>
+                            <td><p>User Role: Admin</br>Employee Name: John Smith</br>Username: jsmith</br>Status: Enabled</br>Password: Test123John_!</br>Confirm Password: Test123John_! </p></td>
+                            <td><p>User created successfully</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">e202ab21-09ea-4a04-9c8e-dd6d241eb6d2</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-41</td>
+                        <td rowspan="3">Check if the system administrator can delete the users</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">27/Feb/23 04:12 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">08/Feb/23 08:34 PM</td>
+                        <td>b47f450d-063d-482c-a763-c06687bec3c5</td>
+                            <td><p>The administrator of sistem enters in the application Orange HRM with credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>c4aa62c6-dfc6-48c1-83d6-bfc043a59e7f</td>
+                            <td><p>Go to the Admin&#62;&#62; User Manangement&#62;&#62; System Users</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The username list is open</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d502171a-a6c9-461f-8fec-8db25046bdb4</td>
+                            <td><p>Go to the checkbox next to "Username" field and select username of the employee to be deleted and press the "Delete" button</p></td>
+                            <td><p>The username Aaliyah.Haq has been selected</p></td>
+                            <td><p>Username Aaliyah.Haq has been successfully deleted</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">36dc8958-6edc-4573-844d-a9fe2d335b7d</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-42</td>
+                        <td rowspan="3">Verify that a user cannot be added when at least one mandatory field is not completed</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">27/Feb/23 04:27 PM</td>
+                        <td rowspan="3">FAIL</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">09/Feb/23 12:44 PM</td>
+                        <td>2042f05d-6bf2-429e-80e0-1ef6f82d0a2a</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>1daa434f-327f-4eca-a29e-2c7bbcfb920c</td>
+                            <td><p>Go to Admin&#62;&#62; User Management&#62;&#62; Users and press the Add button</p></td>
+                            <td><p>The mandatory field was not completed:  Username: John  Smith</p></td>
+                            <td><p>The user could not be added.</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>10f71521-4421-47fa-a0b9-3b2288a3375e</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">8aebc1ce-5858-4676-a797-9e2c0a42df5e</td>
+                        <td rowspan="4">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="4">PIJA-43</td>
+                        <td rowspan="4">Check if the system administrator can add a Job Title</td>
+                        <td rowspan="4">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="4">Orange HRM site launching</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Testare</td>
+                        <td rowspan="4">27/Feb/23 04:38 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">09/Feb/23 05:16 PM</td>
+                        <td>2e28c4f6-bcf0-4b2b-8525-de841feea73b</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>154c6da3-dde2-4bd9-a0b6-a6363599ddf3</td>
+                            <td><p>Go to Admin&#62;&#62;Job&#62;&#62;Job Titles </p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The job title window appears on the screen</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e6ef8f45-5f58-4169-af2b-79625c5e3904</td>
+                            <td><p>Press the "Add" button and can complete the mandatory fields:</p><p>- Job Title </br>- Job Description </br>- Job Specification</p></td>
+                            <td><p>Job Title: Programmer</br>Job Description: Create software programs according to requirements</br>Job Specification: Use known programming languages</p></td>
+                            <td><p>The user is able to fill in the required information</p></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>320694dc-9fc7-4204-825a-3555d29a1cd1</td>
+                            <td><p>Press Save button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>Job Title created successfully</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">24090c8a-9d50-463f-9599-1d23a786f9c8</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-44</td>
+                        <td rowspan="2">Check that a system administrator can view the details of a Job Title</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">27/Feb/23 04:45 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">09/Feb/23 06:11 PM</td>
+                        <td>7928d22d-59e7-4a94-8cdf-057a79ae599f</td>
+                            <td><p>Enter the application Orange HRM with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of system can access the application</p></td>
+                            <td>UNEXECUTED</td>
+                    </tr>
+                    
+                        <tr>
+                            <td>9d703d39-3dd1-4d71-a33c-c00498294195</td>
+                            <td><p>Go to the Job&#62;&#62;Job Titles </p></td>
+                            <td><p>You may view</br>Job Title details by clicking the (pencil button) on the name of the “Job Title”.</p></td>
+                            <td><p>The list has been displayed</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">a107a2ce-6cc8-40ad-bec4-7743a36c25d5</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-45</td>
+                        <td rowspan="3">Check that the System Administrator can add a Pay Grade when all the mandatory information is provided</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">27/Feb/23 05:01 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">22/Feb/23 12:20 PM</td>
+                        <td>5e9e8740-7976-477e-bd9a-df11b7364b43</td>
+                            <td><p>Enter the application Orange HRM with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of System can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>3c080fc4-3111-4322-b7ee-977dbb1bb50c</td>
+                            <td><p>Go to Admin&#62;&#62;Job&#62;&#62;Pay Grades and press Add button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The window of Add Pay Grade was open </p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ad9126db-fb5d-45bc-a5c1-f31f799c691e</td>
+                            <td><p>Complete the field  with the corresponding payment grade and press the "Save" button</p></td>
+                            <td><p>Edit Pay Grade: United States Dollar</p></td>
+                            <td><p>Pay Grade was created successfully</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">97baf136-3258-4815-aaa4-286faa9d9927</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-64</td>
+                        <td rowspan="3">Check if the system administrator (HR) can assign employees to the specific work shift</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">06/Mar/23 11:52 AM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3">PIJA-65</td>
+                        <td rowspan="3">03/Mar/23 02:13 PM</td>
+                        <td>e91ce58a-fa9a-476e-9a07-a733f4b92337</td>
+                            <td><p>Enter the application Orange HRM with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>      
+                    </tr>
+                    
+                        <tr>
+                            <td>cd42fa42-11e9-4355-97c9-141cf827f64e</td>
+                            <td><p>Go to Admin&#62;&#62; Job&#62;&#62; Work Shifts</br>and press the Add Work Shift button </p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Add Work Shifts section has opened</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ca3e349a-8326-4dcf-bd31-85a2c93fa473</td>
+                            <td><p>Complete the mandatory fields with proper information</p></td>
+                            <td><p>Shift Name: Paul Collings</br>Working Hours: 09.00AM- 05.00PM</br>Assigned Employees: Paul Collings</br>and press the Save button</p></td>
+                            <td><p>Employees was assigned with successfully</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">6a935e45-cfba-4df6-a508-5057c8770f2a</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-68</td>
+                        <td rowspan="2">Check if a registered user can be found in System Users</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">19/Mar/23 11:16 AM</td>
+                        <td rowspan="2">FAIL</td>
+                        <td rowspan="2">PIJA-69</td>
+                        <td rowspan="2">13/Mar/23 02:29 PM</td>
+                        <td>a4a55879-f05d-45c2-b76c-2b29a0a54c45</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>bbc014a2-8406-42a5-9d2e-0bf5808a016a</td>
+                            <td><p>Go to the Admin&#62;&#62;User Management&#62;&#62; System Users section and Complete the employee name field with username</p></td>
+                            <td><p>Username: John Smith</p></td>
+                            <td><p>Invalid username. The message is: "no records found". </p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">48583c3c-fe08-4df9-a24b-346e16494986</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-70</td>
+                        <td rowspan="2">Check that the system administrator can edit the minimum or maximum salary by adding decimals</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">20/Mar/23 01:28 PM</td>
+                        <td rowspan="2">FAIL</td>
+                        <td rowspan="2">PIJA-71</td>
+                        <td rowspan="2">13/Mar/23 03:03 PM</td>
+                        <td>ba6027e5-18d9-4343-ad95-749a88f07774</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>9c06a44e-9183-4a51-807c-ac8f156167ac</td>
+                            <td><p>Go to Admin&#62;&#62;Job&#62;&#62;Pay Grades&#62;&#62; Add Currency and Add currency, then enter the minimum or maximum salary with decimals</p></td>
+                            <td><p>Minimum Salary:</br>5000,50 $</p></td>
+                            <td><p>The system can non allows adding the decimal value</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">a3368045-6d7a-4020-b21c-fbfa6d90e3ca</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-67</td>
+                        <td rowspan="2">Check if at Admin in the &quot;Contact information&quot; section all the information provided is correct</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">13/Mar/23 01:55 PM</td>
+                        <td rowspan="2">BLOCKED</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">13/Mar/23 01:28 PM</td>
+                        <td>846cc057-0afb-42e5-b517-8238241a8973</td>
+                            <td><p>Log into the application as an administrator</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b72c3029-3b72-4f5c-a394-2e308980367d</td>
+                            <td><p>Go to the "Contact information" section "About" and click on the button "About"</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>All the information is properly displayed in the "About" window</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">b0b1116d-fbaf-474a-b1b2-ebdc5ea8c16d</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-48</td>
+                        <td rowspan="2">Check that a system administrator can not edit a currency </td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">01/Mar/23 06:11 PM</td>
+                        <td rowspan="2">FAIL</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">22/Feb/23 01:10 PM</td>
+                        <td>a3cd3f0e-0a9d-4030-9778-2937089ed0d5</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>   
+                    </tr>
+                    
+                        <tr>
+                            <td>38cfad16-7e2a-4593-963e-7c872cda5982</td>
+                            <td><p>Enter in the "Edit pay grade"  at</br>field  "Assigned Currencies"</p></td>
+                            <td><p>You cannot edit the details of a currency without clicking on the "Currency" name at the dropdown button</p></td>
+                            <td><p>Currency details have not been edited</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">4570f423-780b-4dc0-a303-2337f4ccac1c</td>
+                        <td rowspan="4">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="4">PIJA-46</td>
+                        <td rowspan="4">Check that a system administrator can add a currency</td>
+                        <td rowspan="4">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="4">Orange HRM site launching</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Testare</td>
+                        <td rowspan="4">01/Mar/23 05:44 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">22/Feb/23 12:23 PM</td>
+                        <td>aea2edcd-f2a8-4039-9c6b-ce316307b677</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>c5986265-2f0e-43d7-876b-7d290ea3ee44</td>
+                            <td><p>Go to Admin&#62;&#62;Job&#62;&#62; Pay Grades</br> and press Add button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The "Add a grade" field has opened</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>94c04fb8-cba9-4b3b-aa37-be7bd95abfc1</td>
+                            <td><p>Complete the "Name" pay grade field </p></td>
+                            <td><p>Name field: Euro</p></td>
+                            <td><p>Pay grade has been added and the currency field has opened</p></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>28a6d443-9542-4461-b9bc-2761fb99ff37</td>
+                            <td><p>Click "Add Currency" and select the currency: Euro</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The currency has been successfully added</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">b786b3f5-fdbf-4170-85bc-d65e2d9c8c29</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-58</td>
+                        <td rowspan="2">Check that the system administrator cannot ass job categories when required information was NOT provided</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">02/Mar/23 02:36 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">26/Feb/23 06:10 PM</td>
+                        <td>9a4b9b6d-a33f-4b81-8e8f-834c1c1b3515</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of system can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>1a373f61-877b-4443-90e2-259a29f42554</td>
+                            <td><p>Go to Admin&#62;&#62; Job&#62;&#62; Job Categories</p></td>
+                            <td><p>Cannot add a job category without filling in the mandatory field "name"</p></td>
+                            <td><p>The job category has not been created</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">bb3cdde8-5919-41f6-b699-38c65b82abdb</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-60</td>
+                        <td rowspan="3">Verify that a system administrator can delete a job category</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">02/Mar/23 02:43 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">26/Feb/23 06:44 PM</td>
+                        <td>16cac8a7-51bd-4a9b-aae2-e0273eb4047f</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of system can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>d88ebf3a-f2bb-440b-99b7-f241abbd6745</td>
+                            <td><p>Go to Admin&#62;&#62; Job&#62;&#62; Job Categories</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>A list of job category details was opened with successfully</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    
+                        <tr>
+                            <td>13366409-d7c5-456f-957f-e73c50b7eba0</td>
+                            <td><p>Click the checkbox next to the name "Job Category" and select the entries you want to delete and clicking "Delete".</p></td>
+                            <td><p>Job Category: Craft Workers</p></td>
+                            <td><p>The selected job category has been successfully deleted</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">c3643570-97ed-4841-ad37-68f10424cbb1</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-49</td>
+                        <td rowspan="3">Verify that a system administrator can view the details of a pay grade</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">02/Mar/23 12:47 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">22/Feb/23 01:16 PM</td>
+                        <td>de3cf08d-d521-441e-9c42-7913177fb71e</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>38a7701c-2db6-4031-84e2-56b897f0caf1</td>
+                            <td><p>Enter the "Job" module; To see details of the pay grade, click on the "Pay Grade" field</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The list of pay grades (Grade 1, Grade 2, etc.) can be viewed</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    
+                        <tr>
+                            <td>3c4b8b9a-39bf-4a6b-aff4-1f8168252472</td>
+                            <td><p>Stay on "Pay Grade" and Click on the Details field from Grade 1</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>All details are displayed successfully</p></td>
+                            <td></td>
+
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">56948c47-4a55-47ab-ba57-1121a4d5f88e</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-50</td>
+                        <td rowspan="2">Verify that a system administrator can delete a pay grade</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">02/Mar/23 12:49 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">22/Feb/23 01:41 PM</td>
+                        <td>13981b4d-b199-48f1-98d5-abf83dc7df4f</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The application is open and can be use</p></td>
+                            <td>UNEXECUTED</td>
+
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>20bef903-2a16-4362-a799-7db97badb8a1</td>
+                            <td><p>Enter in the "Job" module&#62;&#62; Pay Grades and Select one or more check boxes next to the "pay grade" name"and press  the "delete" button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The selected grade/s have been successfully deleted</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">1458e055-f3c0-43e7-a987-22d76cd72931</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-51</td>
+                        <td rowspan="3">Verify that a system administrator can not delete a pay grade</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">02/Mar/23 01:06 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">22/Feb/23 02:00 PM</td>
+                        <td>d539c78d-d85f-485a-a420-acce76add7ce</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>40d3ee2d-e69a-4873-9eca-8875d81afef4</td>
+                            <td><p>Enter the "Job" &#62;&#62;"Pay Grade" section and Access the trash button next to Pay Grade details</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The following message will appear: The selected record will be permanently deleted. Are you sure you want to continue?</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    
+                        <tr>
+                            <td>739ab81f-c1c8-4c06-9ad7-34c9888ea600</td>
+                            <td><p>Stay on  the "Pay Grade" section and Select the Radio button </p></td>
+                            <td><p>Radio button: " No, Cancel"</p></td>
+                            <td><p>The pay grade has not been deleted</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">0dbd4b73-abc7-40d3-a705-094804a92c2f</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-52</td>
+                        <td rowspan="2">Check that the system administrator can define the employment status for employees</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">02/Mar/23 01:08 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">22/Feb/23 02:07 PM</td>
+                        <td>dbbe72c3-d33e-4a1e-8f08-e3071d250a43</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>cb8d1c23-f07b-4ebe-b8f5-c5991ea4ecb2</td>
+                            <td><p>Go to Admin&#62;&#62; Job&#62;&#62; Employment Status and Click "Add" and then complete the field with the name of the employment status and press the "'Save"' button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The section "Add Employment Status" is oppened</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    <tr>
+                        <td rowspan="2">1f59be2f-9ab4-4155-af93-24c51a5b4da0</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-53</td>
+                        <td rowspan="2">Verify that a system administrator can delete employment status for employees</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">02/Mar/23 01:16 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">22/Feb/23 02:16 PM</td>
+                        <td>d2cdf70d-cdaf-4730-8fc9-dd46d3b51ae3</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>6a3240a9-6fdd-4608-99ff-ff2791d4153d</td>
+                            <td><p>Go to the Job&#62;&#62;Employment Status section and select one or more employee names and after selection press the button "Delete selection"</p></td>
+                            <td><p>Employee names: </br>- John Smits</br>- Alex Popescu</br>- Boeru Adina</p></td>
+                            <td><p>Employment statuses have been successfully deleted</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    <tr>
+                        <td rowspan="2">8da14de2-6eac-4448-8ee4-343878e371f2</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-54</td>
+                        <td rowspan="2">Check the fact that a system administrator can see the details of a &quot;Job Title&quot;</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">02/Mar/23 01:27 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">22/Feb/23 02:37 PM</td>
+                        <td>0cc64946-5c38-4afd-b548-f4f556d87932</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b4621b6f-38ef-4f65-a6b8-aaa24936f241</td>
+                            <td><p>Go to Admin&#62;&#62; Job  module&#62;&#62; Job Title section and press the details Job Title button</p></td>
+                            <td><p>Job Title: Full time Automation Engineer using Java and Selenium</p></td>
+                            <td><p>A list of all job details is open and viewable</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">297ae628-32bb-4b16-9539-6928c90bf0f3</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-55</td>
+                        <td rowspan="3">Verify that a system administrator can edit a Job Title</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">02/Mar/23 01:35 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">25/Feb/23 05:19 PM</td>
+                        <td>002eb857-bdde-46a8-ab2f-78083dcaa02d</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>bc370afe-120e-476d-bfc0-9271406e58c2</td>
+                            <td><p>Go to the Job&#62;&#62;Job Title section&#62;&#62; Edit Job Title and and complete all the fields</p></td>
+                            <td><p>Mandatory fields: </br>- Job Title: QA Manual Tester</br>- Job Description:Full time QA Manual Tester with Jira and Postman tools</br>- Job specifications / Job description.docx</p></td>
+                            <td><p>All mandatory fields are filled</p></td>
+                            <td>UNEXECUTED</td>
+
+                        </tr>
+                    
+                        <tr>
+                            <td>262a9732-0bc0-470c-a00c-6fc75a6f4728</td>
+                            <td><p>If the fields are completed, press the "Save" button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The editing of a Title job was done successfully</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">f6b5d919-e52e-487f-9739-415abd3d8f30</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-56</td>
+                        <td rowspan="3">Check that a system administrator can delete a Job Title</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">02/Mar/23 01:36 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">25/Feb/23 05:35 PM</td>
+                        <td>ff0666d1-a2a6-4ade-8d20-6cda3e904090</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b1c70b17-1fbf-4453-93be-f4dde3c96efa</td>
+                            <td><p>Go to the Job&#62;&#62;Job Title section</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>A list of all JobTtitles is opened</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fc2bc90c-1b14-4f0c-aa77-906e44f8c851</td>
+                            <td><p>Select and Click the "Delete" box next to the Job Title </p></td>
+                            <td><p>Job Title: Account Assistant</p></td>
+                            <td><p>The selected Job Title have been successfully deleted</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">4b4793ae-25cb-4430-9f18-3bc69980290f</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-57</td>
+                        <td rowspan="2">Verify that the System administrator can add Job Categories when all mandatory information is provided</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">02/Mar/23 01:40 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">26/Feb/23 05:51 PM</td>
+                        <td>d7c10b9b-2fca-4a12-861f-a8a085b8124c</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of system can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>3fb9e1e8-7a26-4e20-add0-567aecf5d057</td>
+                            <td><p>Go to Admin&#62;&#62; Job&#62;&#62; Job Categories</p></td>
+                            <td><p>Click "Add" , fill in the job category (CEO) and "save"</p></td>
+                            <td><p>The job category has been successfully added</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">0a5b55d9-c007-4475-8cd4-912afdb7cc22</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-61</td>
+                        <td rowspan="2">Check if the HR administrator can see the details of a Job Category</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">03/Mar/23 12:11 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">03/Mar/23 12:11 PM</td>
+                        <td>b19eca6f-25db-46be-92e2-bc9cb68d7df1</td>
+                            <td><p>Enter the application Orange HRM with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator (HR) of sistem can acces the application</p></td>
+                            <td>UNEXECUTED</td>
+
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>23510009-5f91-4da7-9b64-0fae727eea27</td>
+                            <td><p>Go to the &#62;&#62;Job&#62;&#62; Job Categories section and select one of the Job categories </p></td>
+                            <td><p>Job categories: Craft Workers</p></td>
+                            <td><p>There is no possibility to see details about the job categories</p></td>
+                            <td>UNEXECUTED</td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">4d1c00ac-80c7-4af5-a650-d31acc97300e</td>
+                        <td rowspan="3">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="3">PIJA-62</td>
+                        <td rowspan="3">Check if the human resources administrator can define work shifts for a person or a group of employees.</td>
+                        <td rowspan="3">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="3">Orange HRM site launching</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Testare</td>
+                        <td rowspan="3">03/Mar/23 12:26 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">03/Mar/23 12:14 PM</td>
+                        <td>3526ba79-0b21-4205-bad9-11ace7354c8e</td>
+                            <td><p>Enter the application Orange HRM with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem (HR) can acces the application</p></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>ee74bb7e-96f4-48c8-9ffc-919e0a3f2b24</td>
+                            <td><p>Go to Admin&#62;&#62; Job&#62;&#62; Work Shifts, Click “Add” button and complete all the fields </p></td>
+                            <td><p>Fields:</br>-Shift Name</br>Mandatory fields:</br>-Working Hours </p></td>
+                            <td><p>The fields have been completed successfully</p></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>24579419-a57a-4b3a-bc2c-919162621f02</td>
+                            <td><p>Press the "Save" button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The shift list has been defined successfully</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">def2668a-5d12-4c14-b7b0-95a4c43718f2</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-63</td>
+                        <td rowspan="2">Checks that a system administrator (HR) can view the details of a Work Shifts</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">03/Mar/23 12:36 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">03/Mar/23 12:30 PM</td>
+                        <td>e2cda216-d927-4bfa-a7e5-2389ca74dc05</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem (HR) can acces the application</p></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>53496156-e50a-460a-b8fa-02538b0a1d3b</td>
+                            <td><p>Go to Admin&#62;&#62; Job&#62;&#62; Work Shift and click on “Work Shift” name</p></td>
+                            <td><p>Work Shift: Twilight</p></td>
+                            <td><p>All the work shift details are displayed</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">e3a408a8-83b8-491a-92ab-1a200eb88c7a</td>
+                        <td rowspan="2">Orange HRM site launching - Cycle summary</td>
+                        <td rowspan="2">PIJA-66</td>
+                        <td rowspan="2">Verify that a system administrator (HR) can delete a work shift</td>
+                        <td rowspan="2">Proiect_IT_Jira_Adina</td>
+                        <td rowspan="2">Orange HRM site launching</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Testare</td>
+                        <td rowspan="2">03/Mar/23 02:44 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">03/Mar/23 02:39 PM</td>
+                        <td>44423c13-cbdd-4be7-a40f-1505c3e11725</td>
+                            <td><p>Enter the Orange HRM application with administrator credentials</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>The Administrator of sistem can acces the application</p></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>4b68b58f-bb66-44af-be77-3a2bc8054601</td>
+                            <td><p>Go to Admin&#62;&#62; Job&#62;&#62; Work Shifts and</br>select the check box next to the “Work Shift”” name</p></td>
+                            <td><p>Work Shifts name: Twilight</p></td>
+                            <td><p>The work shift was successfully deleted</p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+            </tbody>
+        </table>
+    </body>
+</html>
