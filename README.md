@@ -90,5 +90,5 @@ are boundary value analysis, equivalence partitioning and use case testing.
 
 
 The test cases with steps can be viewed here:
-![ZFJ-Cycle-5-17-2023 (2).html](file:///C:/Users/madalina/Documents/IT%20Factory/GitHub-%20Screen%20Shot/ZFJ-Cycles-05-17-2023%20(2).html)
+![ZFJ-Cycle-5-17-2023 (2).html](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/ZFJ-Cycles-05-17-2023%20(2).html)
 
