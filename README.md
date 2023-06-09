@@ -90,6 +90,6 @@ are boundary value analysis, equivalence partitioning and use case testing.
 
 
 The test cases with steps can be viewed here:[ZFJ - Html Report for Executions.pdf] 
-(file:///C:/Users/madalina/Documents/IT%20Factory/GitHub-%20Screen%20Shot/TC/ZFJ%20-%20Html%20Report%20for%20Executions.pdf)
+
 
 
