@@ -89,6 +89,7 @@ are boundary value analysis, equivalence partitioning and use case testing.
 ![Test Summary.PNG](https://github.com/AdinaIT/Repo_Project_Jira/blob/main/Test%20Summary.PNG)
 
 
-The test cases with steps can be viewed here:
+The test cases with steps can be viewed here:[ZFJ - Html Report for Executions.pdf] 
+(file:///C:/Users/madalina/Documents/IT%20Factory/GitHub-%20Screen%20Shot/TC/ZFJ%20-%20Html%20Report%20for%20Executions.pdf)
 
 
