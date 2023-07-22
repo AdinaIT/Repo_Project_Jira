@@ -103,4 +103,4 @@ The following elements are needed to be ready before the test execution phase be
 
 ## 1.6 Test Execution
 
-* Test cases are executed on the created test Cycle summary:
+* Test cases are executed on the created test Cycle summary:[ZFJ- Cycle Summary] (https://github.com/AdinaIT/Repo_Project_Jira/blob/main/ZFJ%20-%20Html%20Report%20for%20Executions.pdf)
