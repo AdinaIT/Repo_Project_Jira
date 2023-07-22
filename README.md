@@ -101,3 +101,6 @@ The following elements are needed to be ready before the test execution phase be
 * Cycle summary was created 
 * Test cases were added to the cycle summary
 
+## 1.6 Test Execution
+
+* Test cases are executed on the created test Cycle summary:
