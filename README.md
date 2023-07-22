@@ -104,3 +104,4 @@ The following elements are needed to be ready before the test execution phase be
 ## 1.6 Test Execution
 
 * Test cases are executed on the created test Cycle summary: [ZFJ- Cycle Summary execution] (https://github.com/AdinaIT/Repo_Project_Jira/blob/main/ZFJ%20-%20Html%20Report%20for%20Executions.pdf)
+* * Bugs have been created based on the failed tests. The complete bug reports can be found here: 
