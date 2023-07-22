@@ -92,5 +92,12 @@ are boundary value analysis, equivalence partitioning and use case testing.
 The test cases with steps can be viewed here:[ZFJ - Html Report for Executions.pdf] 
 (https://github.com/AdinaIT/Repo_Project_Jira/blob/main/ZFJ%20-%20Html%20Report%20for%20Executions.pdf)
 
+## 1.5 Test Implementation
 
+The following elements are needed to be ready before the test execution phase begins:
+
+* Testing environment is up and running: https://opensource-demo.orangehrmlive.com/
+* Access to the testing environment is given: Username : Admin | Password : admin123
+* Cycle summary was created 
+* Test cases were added to the cycle summary
 
